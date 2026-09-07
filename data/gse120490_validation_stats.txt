@@ -1,0 +1,61 @@
+
+============================================================
+3. 免疫架构复现（投影亚型）
+============================================================
+immune score by projected subtype: KW H=54.17, P=4.86e-11
+projected_subtype
+IS1   -0.006
+IS2   -0.336
+IS3    0.470
+IS4    0.240
+IS5   -0.135
+
+关键基因按投影亚型（均值 log2）:
+  VTCN1   : KW P=3.71e-02 * | IS1=8.53 IS2=7.85 IS3=7.19 IS4=7.23 IS5=7.54
+  CD274   : KW P=3.97e-10 * | IS1=4.35 IS2=3.95 IS3=5.37 IS4=4.8 IS5=4.29
+  PDCD1   : KW P=2.09e-04 * | IS1=5.32 IS2=5.35 IS3=5.43 IS4=5.56 IS5=5.11
+  CTLA4   : KW P=5.88e-04 * | IS1=4.71 IS2=4.71 IS3=4.71 IS4=4.91 IS5=4.49
+  TIGIT   : KW P=5.40e-13 * | IS1=3.1 IS2=3.0 IS3=3.87 IS4=3.5 IS5=3.25
+  LAG3    : KW P=2.47e-07 * | IS1=3.57 IS2=3.57 IS3=4.35 IS4=3.78 IS5=4.14
+  CLDN6   : KW P=1.59e-03 * | IS1=5.92 IS2=5.88 IS3=5.89 IS4=6.23 IS5=5.48
+  CCNE1   : KW P=3.56e-02 * | IS1=7.05 IS2=7.59 IS3=8.0 IS4=7.05 IS5=7.85
+  MAL     : KW P=5.43e-01 | IS1=6.43 IS2=7.35 IS3=6.88 IS4=6.62 IS5=6.56
+  CTSV    : KW P=2.04e-01 | IS1=7.99 IS2=7.49 IS3=8.3 IS4=7.56 IS5=7.84
+  MUC16   : KW P=2.49e-02 * | IS1=7.73 IS2=6.52 IS3=6.86 IS4=6.02 IS5=6.44
+  CD276   : KW P=4.75e-04 * | IS1=7.79 IS2=7.84 IS3=7.68 IS4=7.42 IS5=8.16
+  CD8A    : KW P=5.70e-12 * | IS1=5.37 IS2=5.05 IS3=6.75 IS4=6.42 IS5=5.23
+  GZMB    : KW P=1.18e-09 * | IS1=5.37 IS2=4.9 IS3=6.41 IS4=6.64 IS5=5.05
+
+============================================================
+4. 临床终点 × 投影亚型
+============================================================
+
+matastasis × projected subtype:
+matastasis         No  Yes
+projected_subtype         
+IS1                20    6
+IS2                26   10
+IS3                11   11
+IS4                21    6
+IS5                22   12
+chi2=5.91, P=0.206
+
+grade × projected subtype:
+grade              No  Yes
+projected_subtype         
+IS1                22    4
+IS2                22   14
+IS3                12   10
+IS4                18    9
+IS5                12   22
+chi2=15.89, P=0.003
+
+mi50pluspercent × projected subtype:
+mi50pluspercent    No  Yes
+projected_subtype         
+IS1                19    7
+IS2                16   20
+IS3                11   11
+IS4                18    9
+IS5                19   15
+chi2=6.55, P=0.162

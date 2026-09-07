@@ -1,0 +1,7 @@
+Gene,Cancer prognostics - Uterine Corpus Endometrial Carcinoma (TCGA),RNA tissue specificity,RNA cancer specificity
+CLDN6,unprognostic (2.76e-2),Tissue enhanced,Group enriched
+CCNE1,unprognostic (2.36e-2),Tissue enhanced,Low cancer specificity
+MAL,unprognostic (1.82e-2),Tissue enhanced,Group enriched
+CTSV,unprognostic (6.63e-2),Tissue enriched,Low cancer specificity
+VTCN1,potential prognostic unfavorable (2.25e-4),Tissue enhanced,Group enriched
+MUC16,unprognostic (3.02e-1),Group enriched,Group enriched

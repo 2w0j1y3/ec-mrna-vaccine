@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Large raw downloads (kept out of repo; reproducible from public sources)
+data/*_family.soft.gz
+data/*_series_matrix.txt.gz
+data/*.npz
+data/GPL570.annot.gz
+data/hpa_pathology.tsv.gz
+data/sc_ucec/*.tar.gz
+data/expr/
+
+# Pipeline intermediate state
+output/
+
+# Logs and runtime cruft
+*.log
+*.tmp
+.cache/
+
+# Renderable intermediate (regenerable)
+data/ucsc_cache/
