@@ -22,6 +22,13 @@ data/hpa_pathology.tsv.gz
 data/sc_ucec/*.tar.gz
 data/expr/
 
+# Per-sample GDC raw MAF downloads (re-fetchable from GDC; processed
+# ucec_maf.tsv is the post-aggregation, retained below this line)
+data/maf/
+
+# Large intermediate text matrices (re-derivable)
+data/ucec_tpm_matrix.csv
+
 # Pipeline intermediate state
 output/
 
